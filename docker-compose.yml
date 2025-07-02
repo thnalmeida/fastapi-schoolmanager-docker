@@ -1,0 +1,12 @@
+
+#serviço da aplicação FastAPI
+services:
+  api:
+    build: . #constroi a imagem a partir do dockerfile na raiz do projeto
+    container_name: minha-fastapi-app #nome do container
+    ports:
+      - "8000:8000" #mapeia a porta  8000 do host para a porta 8000 do container
+    volumes:
+      # Monta o código local (onde esta seu codigo) no contêiner para desenvolvimento com hot-reload
+      - .:/app
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload

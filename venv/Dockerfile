@@ -1,5 +1,6 @@
 #puxar imagem python no Docker Hub - repositorio de imagem Docker
-#escolho a imagem confiável, escolhi uma tag alpine, versao mais recente e coloquei aqui: 
+#escolho a imagem confiável
+#escolhi uma tag alpine, versao mais recente e coloquei aqui: 
 FROM python:3.14.0b3-alpine3.22 
 
 # 2. Define o diretório de trabalho dentro do contêiner

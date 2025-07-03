@@ -32,7 +32,7 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 4. **Instale as dependências:**
    ```sh
-   pip install -r requirements.txt ---> é p arquivo que vai indicar todas as dependencias que o projeto precisa
+   pip install -r requirements.txt ---> é o arquivo que vai indicar todas as dependencias que o projeto precisa
    ```
 
 5. **Execute a aplicação:**

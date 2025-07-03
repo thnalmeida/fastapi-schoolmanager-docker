@@ -1,3 +1,6 @@
+#O Objetivo do Docker Compose --------> facilitar a definição, configuração e execução de múltiplos containers Docker que fazem parte de uma mesma aplicação.
+#tudo sobe junto, já interligado e pronto para funcionar // com apenas um comando: docker compose up
+
 
 #serviço da aplicação FastAPI
 services:
